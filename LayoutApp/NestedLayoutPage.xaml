@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LayoutApp.NestedLayoutPage">
+	<StackLayout Orientation="Vertical" Padding="30" Spacing="10">
+		<StackLayout Orientation="Horizontal" Spacing="5">
+			<Label Text="Name" Font="Medium">
+			</Label>
+			<Entry x:Name="entryName" HorizontalOptions="FillAndExpand">
+			</Entry>
+		</StackLayout>
+		<StackLayout Orientation="Horizontal" Spacing="5">
+			<Label Text="Street" Font="Medium">
+			</Label>
+			<Entry x:Name="entryStreet" HorizontalOptions="FillAndExpand">
+			</Entry>
+		</StackLayout>
+		<StackLayout Orientation="Horizontal" Spacing="5">
+			<Label Text="City" Font="Medium">
+			</Label>
+			<Entry x:Name="entryCity" HorizontalOptions="FillAndExpand">
+			</Entry>
+		</StackLayout>
+		<StackLayout Orientation="Horizontal" Spacing="5">
+			<Label Text="PostCode" Font="Medium">
+			</Label>
+			<Entry x:Name="entryPostCode" HorizontalOptions="FillAndExpand">
+			</Entry>
+		</StackLayout>
+		<StackLayout Orientation="Horizontal" Spacing="5">
+			<Label Text="Phone" Font="Medium">
+			</Label>
+			<Entry x:Name="entryPhone" HorizontalOptions="FillAndExpand">
+			</Entry>
+		</StackLayout>
+	</StackLayout>
+</ContentPage>
